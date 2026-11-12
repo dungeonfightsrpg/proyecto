@@ -23,5 +23,6 @@ alignment="CENTER"
 spacing="15.0">
 
     <Label text="Dungeon Fights RPG" />
+    <Label text="Ultima prueba"/>
 
 </VBox>

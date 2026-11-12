@@ -150,4 +150,8 @@ git log --oneline
 Restaura un archivo a su estado en el último commit (cancela modificaciones locales).
 ```bash
 git restore nombre_del_archivo.ext
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 0a1b67154e331528a4f940c65984036aedc581b4

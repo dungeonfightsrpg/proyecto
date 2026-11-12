@@ -1,16 +1,21 @@
-# --- Caché y compilación (Gradle / Kotlin / JVM) ---
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+
+# --- Gradle / Kotlin ---
 .gradle/
 .kotlin/
-bin/
 build/
+bin/
 
-# --- Entorno de desarrollo (VS Code) ---
-.vscode/
-
-# --- Archivos temporales del sistema operativo ---
+# --- Archivos temporales del sistema ---
 *~
 .fuse_hidden*
 .directory
 .Trash-*
 .DS_Store
 Thumbs.db
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml

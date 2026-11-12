@@ -22,7 +22,6 @@ fx:id="mainBox"
 alignment="CENTER"
 spacing="15.0">
 
-    <Label text="Hola Prueba" />
-    <TextField focusTraversable="false" prefWidth="200" maxWidth="200" promptText="Alberto23" />
+    <Label text="Dungeon Fights RPG" />
 
 </VBox>

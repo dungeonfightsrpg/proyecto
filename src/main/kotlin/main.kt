@@ -1,0 +1,29 @@
+import javafx.application.Application
+import javafx.application.Platform
+import javafx.fxml.FXMLLoader
+import javafx.scene.Scene
+import javafx.scene.Parent
+import javafx.stage.Stage
+
+class Main : Application() {
+  
+  override fun start(stage: Stage) {
+    
+    val root = FXMLLoader.load<Parent>(Main::class.java.getResource("main.fxml"))
+    val mainScene = Scene(root, 1920.0,1080.0)
+    
+    stage.title = "DungeonFightsRPG"
+    
+    stage.scene = mainScene
+    
+    stage.show()
+    
+  }
+  
+}
+
+fun main () {
+
+  Application.launch(Main::class.java)
+  
+}

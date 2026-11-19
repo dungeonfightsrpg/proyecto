@@ -5,6 +5,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.layout.AnchorPane?>
 
+<?import javafx.scene.control.TextField?>
 <AnchorPane xmlns:fx="http://javafx.com/fxml"
             fx:controller="registroController"
             prefWidth="800"
@@ -14,22 +15,48 @@
     <ImageView fitWidth="100"
                fitHeight="100"
                preserveRatio="true"
-               layoutX="50"
-               layoutY="50">
+               layoutX="10"
+               layoutY="10">
 
         <image>
             <Image url="@imagenes/logo1.png"/>
         </image>
 
     </ImageView>
-
     <Label text="Iniciar sesión"
-           layoutX="350"
-           layoutY="300"
-            textFill="white"/>
+           layoutX="60"
+           layoutY="120"
+            textFill="white"
+           style="-fx-font-family: 'Times New Roman';
+    -fx-font-size: 25px;"/>
 
-    <Label text="Registrarse"
-           layoutX="350"
-           layoutY="350"/>
+    <Label
+    text="Usuario"
+    textFill="white"
+    layoutX="50"
+    layoutY="200"
+    style="-fx-font-family: 'Times New Roman';
+    -fx-font-size: 12px;"
 
+    ></Label>
+
+    <TextField
+        layoutX="50"
+        layoutY="220"
+        style="-fx-font-family: 'Times New Roman';
+    -fx-font-size: 12px;"
+    ></TextField>
+    <Label text="Contraseña"
+           textFill="white"
+           layoutX="50"
+           layoutY="250"
+           style="-fx-font-family: 'Times New Roman';
+    -fx-font-size: 12px;"/>
+
+    <TextField
+            layoutX="50"
+            layoutY="270"
+            style="-fx-font-family: 'Times New Roman';
+    -fx-font-size: 12px;"
+    ></TextField>
 </AnchorPane>

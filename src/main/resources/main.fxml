@@ -15,14 +15,23 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<VBox xmlns:fx="http://javafx.com/fxml"
-fx:controller="MainController"
-fx:id="mainBox"
-alignment="CENTER"
-spacing="15.0">
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 
-    <Label text="Dungeon Fights RPG" />
-    <Label text="Ultima prueba"/>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="MainController"
+            fx:id="mainBox"
+            prefWidth="800"
+            prefHeight="600">
 
-</VBox>
+    <Label text="Dungeon Fights RPG"
+           layoutX="300"
+           layoutY="100"/>
+
+    <Label text="Ultima prueba"
+           layoutX="350"
+           layoutY="200"/>
+
+</AnchorPane>

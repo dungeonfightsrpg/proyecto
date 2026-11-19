@@ -9,7 +9,7 @@ class Main : Application() {
   
   override fun start(stage: Stage) {
     
-    val root = FXMLLoader.load<Parent>(Main::class.java.getResource("main.fxml"))
+    val root = FXMLLoader.load<Parent>(Main::class.java.getResource("registro.fxml"))
     val mainScene = Scene(root, 1920.0,1080.0)
     
     stage.title = "DungeonFightsRPG"

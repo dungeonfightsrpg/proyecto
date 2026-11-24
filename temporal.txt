@@ -1,0 +1,7 @@
+COSAS TEMPORALES
+
+    <Button text="Jefes" fx:id="btnJefes" onAction=""/>
+    <Button text="Oleadas" fx:id="btnOleadas" onAction=""/>
+    <Button text="Tienda" fx:id="btnTienda" onAction=""/>
+
+El fxml con todos los improts es el de principal.fxml

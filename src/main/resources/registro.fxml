@@ -15,48 +15,42 @@
     <ImageView fitWidth="100"
                fitHeight="100"
                preserveRatio="true"
-               layoutX="10"
-               layoutY="10">
+               layoutX="50"
+               layoutY="20">
 
-        <image>
-            <Image url="@imagenes/logo1.png"/>
-        </image>
-
+        <Image url="assets/icons/logo1.png"/>
+        
     </ImageView>
     <Label text="Iniciar sesión"
            layoutX="60"
            layoutY="120"
-            textFill="white"
+           textFill="white"
            style="-fx-font-family: 'Times New Roman';
-    -fx-font-size: 25px;"/>
+           -fx-font-size: 25px;"/>
 
     <Label
-    text="Usuario"
-    textFill="white"
-    layoutX="50"
-    layoutY="200"
-    style="-fx-font-family: 'Times New Roman';
-    -fx-font-size: 12px;"
-
-    ></Label>
+        text="Usuario"
+        textFill="white"
+        layoutX="50"
+        layoutY="200"
+        style="-fx-font-family: 'Times New Roman';
+        -fx-font-size: 12px;"/>
 
     <TextField
         layoutX="50"
         layoutY="220"
         style="-fx-font-family: 'Times New Roman';
-    -fx-font-size: 12px;"
-    ></TextField>
+    -fx-font-size: 12px;"/>
     <Label text="Contraseña"
            textFill="white"
            layoutX="50"
            layoutY="250"
            style="-fx-font-family: 'Times New Roman';
-    -fx-font-size: 12px;"/>
+           -fx-font-size: 12px;"/>
 
     <TextField
             layoutX="50"
             layoutY="270"
             style="-fx-font-family: 'Times New Roman';
-    -fx-font-size: 12px;"
-    ></TextField>
+            -fx-font-size: 12px;"/>
 </AnchorPane>

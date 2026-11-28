@@ -1,0 +1,89 @@
+.btn-jefes, .btn-oleadas, .btn-tienda, .btn-cerrar-sesion {
+    -fx-font-family: "Impact", "Trebuchet MS", sans-serif;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-width: 420px;
+    -fx-pref-height: 80px;
+    -fx-cursor: hand;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 22px;
+    -fx-border-width: 4px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.85), 10, 0.0, 0, 5);
+}
+
+.btn-jefes {
+    -fx-background-color: linear-gradient(to bottom, #8B0000 0%, #4A0000 50%, #2B0000 100%);
+    -fx-border-color: linear-gradient(to bottom, #FFD700, #B8860B);
+}
+
+.btn-jefes:hover {
+    -fx-background-color: linear-gradient(to bottom, #FF4500 0%, #C70039 50%, #4A0000 100%);
+    -fx-border-color: linear-gradient(to bottom, #FFFFFF, #FFD700);
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 69, 0, 0.95), 22, 0.5, 0, 0);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+
+.btn-jefes:pressed {
+    -fx-background-color: linear-gradient(to bottom, #3B0808, #1A0404);
+    -fx-scale-x: 0.97;
+    -fx-scale-y: 0.97;
+}
+
+.btn-oleadas {
+    -fx-background-color: linear-gradient(to bottom, #4A3B32 0%, #2E221B 50%, #1A120D 100%);
+    -fx-border-color: linear-gradient(to bottom, #D4AF37, #8B6508);
+}
+
+.btn-oleadas:hover {
+    -fx-background-color: linear-gradient(to bottom, #1E88E5 0%, #0D47A1 50%, #0A192F 100%);
+    -fx-border-color: linear-gradient(to bottom, #FFFFFF, #82B1FF);
+    -fx-effect: dropshadow(three-pass-box, rgba(30, 136, 229, 0.95), 22, 0.5, 0, 0);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+
+.btn-oleadas:pressed {
+    -fx-background-color: linear-gradient(to bottom, #0A192F, #050C17);
+    -fx-scale-x: 0.97;
+    -fx-scale-y: 0.97;
+}
+
+.btn-tienda {
+    -fx-background-color: linear-gradient(to bottom, #1E4D2B 0%, #11331B 50%, #071A0E 100%);
+    -fx-border-color: linear-gradient(to bottom, #FFD700, #DAA520);
+}
+
+.btn-tienda:hover {
+    -fx-background-color: linear-gradient(to bottom, #00E676 0%, #00897B 50%, #004D40 100%);
+    -fx-border-color: linear-gradient(to bottom, #FFFFFF, #69F0AE);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 230, 118, 0.95), 22, 0.5, 0, 0);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+
+.btn-tienda:pressed {
+    -fx-background-color: linear-gradient(to bottom, #0D2615, #05120A);
+    -fx-scale-x: 0.97;
+    -fx-scale-y: 0.97;
+}
+
+.btn-cerrar-sesion {
+    -fx-background-color: linear-gradient(to bottom, #3A3A3A 0%, #222222 50%, #111111 100%);
+    -fx-border-color: linear-gradient(to bottom, #888888, #444444);
+}
+
+.btn-cerrar-sesion:hover {
+    -fx-background-color: linear-gradient(to bottom, #C62828 0%, #8E0000 50%, #4A0000 100%);
+    -fx-border-color: linear-gradient(to bottom, #FFFFFF, #FF8A80);
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 82, 82, 0.95), 22, 0.5, 0, 0);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+
+.btn-cerrar-sesion:pressed {
+    -fx-background-color: linear-gradient(to bottom, #2A0000, #100000);
+    -fx-scale-x: 0.97;
+    -fx-scale-y: 0.97;
+}

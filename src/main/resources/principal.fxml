@@ -17,31 +17,32 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.Region?>
 
 <VBox xmlns:fx="http://javafx.com/fxml"
-    fx:controller="PrincipalController"
-    spacing="15.0"
-    alignment="TOP_CENTER">
+    fx:controller="controllers.PrincipalController"
+    spacing="20.0"
+    alignment="TOP_CENTER"
+    stylesheets="@CSS/principal.css"
+    style="-fx-background-color: #1A1412;">
 
     <padding>
         <Insets top="20.0" right="20.0" bottom="20.0" left="20.0"/>
     </padding>
 
-    <ImageView layoutX="5"
-               layoutY="5"
-               fitWidth="1536"
+    <ImageView fitWidth="1536"
                fitHeight="400"
-               preserveRatio="false">
-
-        <Image url="assets/images/BannerMenu.png"/>
-
+               preserveRatio="true">
+        <Image url="@assets/images/BannerMenu.png"/>
     </ImageView>
 
-    <Region prefHeight="20.0"/>
+    <Region prefHeight="10.0"/>
 
-    <Button text="Jefes" fx:id="btnJefes" onAction="#actJefes" focusTraversable="false"/>
-    <Button text="Oleadas" fx:id="btnOleadas" onAction="#actOleadas" focusTraversable="false"/>
-    <Button text="Tienda" fx:id="btnTienda" onAction="#actTienda" focusTraversable="false"/>
+    <Button text="JEFES" fx:id="btnJefes" onAction="#actJefes" focusTraversable="false" styleClass="btn-jefes"/>
+    <Button text="OLEADAS" fx:id="btnOleadas" onAction="#actOleadas" focusTraversable="false" styleClass="btn-oleadas"/>
+    <Button text="TIENDA" fx:id="btnTienda" onAction="#actTienda" focusTraversable="false" styleClass="btn-tienda"/>
+
+    <Region prefHeight="15.0"/>
+
+    <Button text="CERRAR SESIÓN" fx:id="btnCerrarSesion" onAction="#actCerrarSesion" focusTraversable="false" styleClass="btn-cerrar-sesion"/>
 
 </VBox>

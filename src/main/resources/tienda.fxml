@@ -19,7 +19,7 @@
 <?import javafx.scene.image.ImageView?>
 
 <VBox xmlns:fx="http://javafx.com/fxml"
-    fx:controller="PrincipalController"
+    fx:controller="controllers.PrincipalController"
     spacing="20.0"
     alignment="TOP_CENTER"
     stylesheets="@CSS/principal.css"

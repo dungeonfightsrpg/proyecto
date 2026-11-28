@@ -19,7 +19,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane xmlns:fx="http://javafx.com/fxml"
-            fx:controller="MainController"
+            fx:controller="controllers.MainController"
             fx:id="mainBox"
             prefWidth="800"
             prefHeight="600">
